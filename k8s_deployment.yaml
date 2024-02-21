@@ -17,6 +17,7 @@ spec:
       containers:
       - name: bankapp-w1-container
         image: venkt06/bankapp-w1-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8081
 ---
